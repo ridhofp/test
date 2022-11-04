@@ -1,0 +1,66 @@
+*{
+    font: Times New Roman;
+}
+
+body{
+    font-size: large;
+}
+
+#wrapper{
+    margin: auto;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#header{
+    background: #000000;
+    /* background-image: https://www.infocatdog.com/wp-content/uploads/2022/01/Kucing-psang-muka-jelek-tapi-lucu-bikin-senyum-semyum.png; */
+    height: 130px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+img{
+    width: 350px;
+    height: auto;
+}
+
+b{
+    font:20px;
+}
+
+
+form#search{
+    float: right;
+}
+#nav{
+    background: rgba(0, 0, 0, 0.4);
+    margin: 0;
+
+}
+ul#menu li{
+    margin:0;
+    display: inline-block;
+    position: relative;
+}
+#content-wrap{
+    width: 652px;
+    float: left;
+}
+
+#footer{
+    background: #97e605;
+    clear: both;
+}
+
+/* h3{
+    border: 5px;
+    border-style: round;
+} */
